@@ -5,6 +5,7 @@
 
 int extraMemoryAllocated;
 
+
 void swap(int *a, int *b);
 
 void merge(int arr[], int l, int m, int r) {
@@ -14,6 +15,9 @@ void merge(int arr[], int l, int m, int r) {
 
     /* create temp arrays */
     int L[n1], R[n2];
+
+    extraMemoryAllocated += (n1 + n2) * sizeof(int);
+
 
     /* Copy data to temp arrays L[] and R[] */
     for (i = 0; i < n1; i++)
