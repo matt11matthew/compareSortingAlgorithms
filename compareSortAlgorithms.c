@@ -106,9 +106,9 @@ int main(void)
 	clock_t start, end;
 	int i;
     double cpu_time_used;
-//	char* fileNames[] = {"input1.txt", "input2.txt", "input3.txt"};
+	char* fileNames[] = {"input1.txt", "input2.txt", "input3.txt"};
 //	char* fileNames[] = {"C:\\Users\\matt1\\CLionProjects\\compareSortingAlgorithms\\input1.txt", "C:\\Users\\matt1\\CLionProjects\\compareSortingAlgorithms\\input2.txt", "C:\\Users\\matt1\\CLionProjects\\compareSortingAlgorithms\\input3.txt"};
-	char* fileNames[] = {"C:\\Users\\Matthew Eisenberg\\Documents\\DREnhancedMod\\Projects\\DRMod\\compareSortingAlgorithms\\input1.txt", "C:\\Users\\Matthew Eisenberg\\Documents\\DREnhancedMod\\Projects\\DRMod\\compareSortingAlgorithms\\input2.txt", "C:\\Users\\Matthew Eisenberg\\Documents\\DREnhancedMod\\Projects\\DRMod\\compareSortingAlgorithms\\input3.txt"};
+//	char* fileNames[] = {"C:\\Users\\Matthew Eisenberg\\Documents\\DREnhancedMod\\Projects\\DRMod\\compareSortingAlgorithms\\input1.txt", "C:\\Users\\Matthew Eisenberg\\Documents\\DREnhancedMod\\Projects\\DRMod\\compareSortingAlgorithms\\input2.txt", "C:\\Users\\Matthew Eisenberg\\Documents\\DREnhancedMod\\Projects\\DRMod\\compareSortingAlgorithms\\input3.txt"};
 
 	for (i=0;i<3;++i)
 	{
